@@ -209,7 +209,7 @@ const App = () => {
               <div key={p.name} className="bg-white rounded-xl p-4 shadow-sm border flex items-center justify-between">
                 <div className="flex items-center gap-4">
                   <span className={`text-xl font-black ${idx < 3 ? 'text-red-600' : 'text-slate-200'}`}>#{idx + 1}</span>
-                  <div><p className="font-bold text-slate-800">{p.name}</p><p className="text-[10px] text-slate-500 font-bold uppercase">{p.winRate} 勝率 • {p.played} 場</p></div>
+                  <div><p className="font-bold text-slate-800">{p.name}</p><p className="text-[10px] text-slate-500 font-bold uppercase">{p.winRate} 勝率  {p.played} 場</p></div>
                 </div>
                 <p className={`text-2xl font-black ${idx < 3 ? 'text-blue-900' : 'text-slate-700'}`}>{p.pts}</p>
               </div>
